@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        document.write("<h1>classificação genero e idade:<h1>")
+        alert("olaa")
+        $idade = prompt("digite sua idade")
+        $sexo = prompt("digite seu sexo")
+
+        if ($idade <= 17) {
+            if ($sexo == 'masculino'){
+                document.write("menino")
+        }
+            if ($sexo == 'feminino'){
+                document.write("menina")
+    }
+            else
+                alert("escreva masculino ou feminino")
+
+        }
+        else 
+        {
+            if($sexo=="masculino"){
+            document.write("homem")
+            }
+            if($sexo=="feminino"){
+            document.write("mulher")
+            }
+            else
+            alert("escreva masculino ou feminino")
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--<h1>classificação genero e idade</h1> -->
+
+</body>
+
+</html>
